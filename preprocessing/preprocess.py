@@ -4,7 +4,7 @@ import re
 from collections import Counter
 
 # Load data
-df = pd.read_csv('./preprocessing/got_scripts.csv')
+df = pd.read_csv('./preprocessing/data/out/cleaned_ordered.csv')
 df['Text'] = df['Text'].fillna('')
 
 # Cleaning for analysis
@@ -101,7 +101,7 @@ for _, r in links_df.iterrows():
     })
 
 # Final JSON Export
-with open('./preprocessing/out/got_data.json', 'w') as f:
+with open('./preprocessing/data/out/got_data.json', 'w') as f:
     json.dump({"nodes": nodes, "links": links}, f, indent=4)
 
 print("Pre-processing complete. Every requirement is mapped into 'got_data.json'.")
