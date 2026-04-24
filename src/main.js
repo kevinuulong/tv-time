@@ -1,62 +1,167 @@
 import './style.css'
-import javascriptLogo from './assets/javascript.svg'
-import viteLogo from './assets/vite.svg'
-import heroImg from './assets/hero.png'
-import { setupCounter } from './counter.js'
+import { buildCharacterDictionary } from './appearanceChart.js'
 
-// NOTE: Don't actually add our HTML in here. We can probably just use index.html in the root.
+// =========================
+// CSV (code = key)
+// =========================
 
-document.querySelector('#app').innerHTML = `
-<section id="center">
-  <div class="hero">
-    <img src="${heroImg}" class="base" width="170" height="179">
-    <img src="${javascriptLogo}" class="framework" alt="JavaScript logo"/>
-    <img src=${viteLogo} class="vite" alt="Vite logo" />
-  </div>
-  <div>
-    <h1>Get started</h1>
-    <p>Edit <code>src/main.js</code> and save to test <code>HMR</code></p>
-  </div>
-  <button id="counter" type="button" class="counter"></button>
-</section>
+async function loadCharacterCSV() {
+  const res = await fetch('/data/characters.csv')
+  const text = await res.text()
 
-<div class="ticks"></div>
+  const [, ...rows] = text.trim().split('\n')
 
-<section id="next-steps">
-  <div id="docs">
-    <svg class="icon" role="presentation" aria-hidden="true"><use href="/icons.svg#documentation-icon"></use></svg>
-    <h2>Documentation</h2>
-    <p>Your questions, answered</p>
-    <ul>
-      <li>
-        <a href="https://vite.dev/" target="_blank">
-          <img class="logo" src=${viteLogo} alt="" />
-          Explore Vite
-        </a>
-      </li>
-      <li>
-        <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank">
-          <img class="button-icon" src="${javascriptLogo}" alt="">
-          Learn more
-        </a>
-      </li>
-    </ul>
-  </div>
-  <div id="social">
-    <svg class="icon" role="presentation" aria-hidden="true"><use href="/icons.svg#social-icon"></use></svg>
-    <h2>Connect with us</h2>
-    <p>Join the Vite community</p>
-    <ul>
-      <li><a href="https://github.com/vitejs/vite" target="_blank"><svg class="button-icon" role="presentation" aria-hidden="true"><use href="/icons.svg#github-icon"></use></svg>GitHub</a></li>
-      <li><a href="https://chat.vite.dev/" target="_blank"><svg class="button-icon" role="presentation" aria-hidden="true"><use href="/icons.svg#discord-icon"></use></svg>Discord</a></li>
-      <li><a href="https://x.com/vite_js" target="_blank"><svg class="button-icon" role="presentation" aria-hidden="true"><use href="/icons.svg#x-icon"></use></svg>X.com</a></li>
-      <li><a href="https://bsky.app/profile/vite.dev" target="_blank"><svg class="button-icon" role="presentation" aria-hidden="true"><use href="/icons.svg#bluesky-icon"></use></svg>Bluesky</a></li>
-    </ul>
-  </div>
-</section>
+  const map = new Map()
 
-<div class="ticks"></div>
-<section id="spacer"></section>
-`
+  rows.forEach(row => {
+    const [character, code, image] = row.split(',')
+    if (!code) return
 
-setupCounter(document.querySelector('#counter'))
+    map.set(code.trim(), {
+      character: character?.trim(),
+      image: image?.trim()
+    })
+  })
+
+  return map
+}
+
+// =========================
+// SAFE DOM
+// =========================
+
+function ensureDOM() {
+  let app = document.getElementById("app")
+
+  if (!app) {
+    app = document.createElement("div")
+    app.id = "app"
+    document.body.appendChild(app)
+  }
+
+  let wrapper = document.querySelector(".heatmap-wrapper")
+  if (!wrapper) {
+    wrapper = document.createElement("div")
+    wrapper.className = "heatmap-wrapper"
+    app.appendChild(wrapper)
+  }
+
+  let container = document.querySelector(".heatmap-container")
+  if (!container) {
+    container = document.createElement("div")
+    container.className = "heatmap-container"
+    wrapper.appendChild(container)
+  }
+
+  let grid = document.getElementById("heatmap")
+  if (!grid) {
+    grid = document.createElement("div")
+    grid.id = "heatmap"
+    grid.className = "heatmap"
+    container.appendChild(grid)
+  }
+
+  let panel = document.getElementById("info-panel")
+  if (!panel) {
+    panel = document.createElement("div")
+    panel.id = "info-panel"
+    panel.className = "info-panel"
+    wrapper.appendChild(panel)
+  }
+
+  return { grid, panel }
+}
+
+// =========================
+// INIT
+// =========================
+
+async function init() {
+  const [res, characterMap] = await Promise.all([
+    fetch('/data/script_data.json'),
+    loadCharacterCSV()
+  ])
+
+  const data = await res.json()
+
+  const { characterDict } = buildCharacterDictionary(data, characterMap)
+
+  const { grid, panel } = ensureDOM()
+
+  render(grid, panel, characterDict, characterMap)
+}
+
+// =========================
+// RENDER
+// =========================
+
+function render(grid, panel, data, characterMap) {
+  grid.innerHTML = ""
+
+  const codes = Object.keys(data)
+    .sort((a, b) =>
+      data[a].firstAppearanceIndex - data[b].firstAppearanceIndex
+    )
+
+  const episodes = Object.keys(data[codes[0]].appearances)
+
+  grid.style.display = "grid"
+  grid.style.gridTemplateColumns = `150px repeat(${episodes.length}, 20px)`
+  grid.style.gap = "2px"
+
+  function updatePanel(code, ep, cell) {
+    const meta = characterMap.get(code)
+
+    panel.innerHTML = `
+      <h3>${meta?.character ?? code}</h3>
+      ${meta?.image ? `<img src="${meta.image}" style="width:100%;border-radius:6px;margin-bottom:10px;">` : ""}
+      <p><strong>${ep}</strong></p>
+      <p><strong>${cell.count}</strong> words</p>
+    `
+  }
+
+  grid.appendChild(document.createElement("div"))
+
+  episodes.forEach(ep => {
+    const el = document.createElement("div")
+    el.textContent = ep
+    el.style.fontSize = "10px"
+    el.style.writingMode = "vertical-rl"
+    el.style.transform = "rotate(180deg)"
+    grid.appendChild(el)
+  })
+
+  codes.forEach(code => {
+    const meta = characterMap.get(code)
+
+    const label = document.createElement("div")
+    label.textContent = meta?.character ?? code
+    label.style.fontSize = "12px"
+    label.style.display = "flex"
+    label.style.alignItems = "center"
+
+    grid.appendChild(label)
+
+    episodes.forEach(ep => {
+      const cell = document.createElement("div")
+      cell.style.width = "20px"
+      cell.style.height = "20px"
+      cell.style.borderRadius = "3px"
+
+      const cellData = data[code].appearances[ep] ?? {
+        color: "hsl(30,20%,95%)",
+        count: 0
+      }
+
+      cell.style.background = cellData.color
+
+      cell.addEventListener("mouseenter", () => {
+        updatePanel(code, ep, cellData)
+      })
+
+      grid.appendChild(cell)
+    })
+  })
+}
+
+window.addEventListener("DOMContentLoaded", init)
