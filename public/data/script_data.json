@@ -1,6 +1,143 @@
 {
     "nodes": [
         {
+            "id": "HARALD KARSTARK",
+            "total_episodes_count": 2,
+            "total_word_count": 80,
+            "top_content_overall": [
+                {
+                    "term": "starks",
+                    "count": 3,
+                    "sample": "The Starks lost my house the day King Rob cut off my father\u2019s head. It\u2019s time for new blood in the North."
+                },
+                {
+                    "term": "north",
+                    "count": 2,
+                    "sample": "Your hold on the North will never be secure as long as a Stark can walk through that door."
+                },
+                {
+                    "term": "lord",
+                    "count": 2,
+                    "sample": " My congratulations, Lord Bolton."
+                },
+                {
+                    "term": "came",
+                    "count": 1,
+                    "sample": "He came upon the bodies on our way here."
+                },
+                {
+                    "term": "upon",
+                    "count": 1,
+                    "sample": "He came upon the bodies on our way here."
+                }
+            ],
+            "seasons": {
+                "6": {
+                    "season_word_count": 80,
+                    "episodes": [
+                        {
+                            "episode_number": 2,
+                            "episode_name": "Home",
+                            "word_count": 66
+                        },
+                        {
+                            "episode_number": 3,
+                            "episode_name": "Oathbreaker",
+                            "word_count": 14
+                        }
+                    ],
+                    "top_content": [
+                        {
+                            "term": "starks",
+                            "count": 3,
+                            "sample": "The Starks lost my house the day King Rob cut off my father\u2019s head. It\u2019s time for new blood in the North."
+                        },
+                        {
+                            "term": "north",
+                            "count": 2,
+                            "sample": "Your hold on the North will never be secure as long as a Stark can walk through that door."
+                        },
+                        {
+                            "term": "lord",
+                            "count": 2,
+                            "sample": " My congratulations, Lord Bolton."
+                        },
+                        {
+                            "term": "came",
+                            "count": 1,
+                            "sample": "He came upon the bodies on our way here."
+                        },
+                        {
+                            "term": "upon",
+                            "count": 1,
+                            "sample": "He came upon the bodies on our way here."
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "id": "A VOICE",
+            "total_episodes_count": 1,
+            "total_word_count": 5,
+            "top_content_overall": [
+                {
+                    "term": "maester",
+                    "count": 1,
+                    "sample": " It\u2019s Maester Luwin, my lord."
+                },
+                {
+                    "term": "luwin",
+                    "count": 1,
+                    "sample": " It\u2019s Maester Luwin, my lord."
+                },
+                {
+                    "term": "lord",
+                    "count": 1,
+                    "sample": " It\u2019s Maester Luwin, my lord."
+                },
+                {
+                    "term": "maester luwin",
+                    "count": 1,
+                    "sample": " It\u2019s Maester Luwin, my lord."
+                }
+            ],
+            "seasons": {
+                "1": {
+                    "season_word_count": 5,
+                    "episodes": [
+                        {
+                            "episode_number": 1,
+                            "episode_name": "Winter is Coming",
+                            "word_count": 5
+                        }
+                    ],
+                    "top_content": [
+                        {
+                            "term": "maester",
+                            "count": 1,
+                            "sample": " It\u2019s Maester Luwin, my lord."
+                        },
+                        {
+                            "term": "luwin",
+                            "count": 1,
+                            "sample": " It\u2019s Maester Luwin, my lord."
+                        },
+                        {
+                            "term": "lord",
+                            "count": 1,
+                            "sample": " It\u2019s Maester Luwin, my lord."
+                        },
+                        {
+                            "term": "maester luwin",
+                            "count": 1,
+                            "sample": " It\u2019s Maester Luwin, my lord."
+                        }
+                    ]
+                }
+            }
+        },
+        {
             "id": "ADDAM MARBRAND",
             "total_episodes_count": 1,
             "total_word_count": 19,
