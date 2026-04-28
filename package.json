@@ -12,6 +12,7 @@
     "vite": "^8.0.4"
   },
   "dependencies": {
+    "csv-parser": "^3.2.0",
     "d3": "^7.9.0"
   }
 }
