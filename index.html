@@ -1,13 +1,43 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>tv-time</title>
-  </head>
-  <body>
-    <div id="app"></div>
-    <script type="module" src="/src/main.js"></script>
-  </body>
+
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>tv-time</title>
+</head>
+
+<body>
+  <section id="intro">
+    <img src="/logo.svg" alt="Game of Thrones Logo">
+  </section>
+  <div class="about">
+    <p class="label synopsis">Synopsis:</p>
+    Seven noble families fight for control of the mythical land of Westeros. Friction between the houses leads to
+    full-scale war. All while a very ancient evil awakens in the farthest north. Amidst the war, a neglected military
+    order of misfits, the Night's Watch, is all that stands between the realms of men and icy horrors beyond.
+
+    <div class="details">
+      <div class="group">
+        <p class="label">Network:</p><p class="value">HBO</p>
+      </div>
+      <div class="group">
+        <p class="label">Run:</p><p class="value">8 seasons</p>
+      </div>
+    </div>
+  </div>
+  <div class="about">
+    <div class="label synopsis">Index</div>
+    <div class="value lede">Check out all of our visualizations!</div>
+    <div class="buttons">
+      <a href="/episode-characters" class="button"><svg data-icon="list"></svg>Episodes</a>
+      <a href="/map" class="button"><svg data-icon="map"></svg>Map</a>
+    </div>
+  </div>
+  <div id="app">
+  </div>
+  <script type="module" src="/src/main.js"></script>
+</body>
+
 </html>
