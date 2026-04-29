@@ -7,7 +7,46 @@
     <title>tv-time</title>
   </head>
   <body>
-    <div id="app"></div>
+    <main id="app">
+        <div id="character-card">
+          <img id="character-image">
+          <div class="label">
+            <h1 class="character-name"></h1>
+          </div>
+        </div>
+        <div id="content">
+          <div id="controls">
+            <button id="previous" class="icon-button" disabled><svg data-icon="chevron-left"></svg></button>
+            <select name="season" id="season">
+              <option value="all">All Seasons</option>
+              <option value="1" disabled>Season 1</option>
+              <option value="2" disabled>Season 2</option>
+              <option value="3" disabled>Season 3</option>
+              <option value="4" disabled>Season 4</option>
+              <option value="5" disabled>Season 5</option>
+              <option value="6" disabled>Season 6</option>
+              <option value="7" disabled>Season 7</option>
+              <option value="8" disabled>Season 8</option>
+            </select>
+            <button id="next" class="icon-button"><svg data-icon="chevron-right"></svg></button>
+          </div>
+            <div class="chart-group">
+              <div class="chart-label-group">
+                <h2>Top Words</h2>
+                <p>Repetitive much? <span class="character-name"></span> certainly loved these words and phrases in <span class="season"></span>.</p>
+              </div>
+              <ol class="chart" id="top-words"></ol>
+            </div>
+            <div class="chart-group">
+              <div class="chart-label-group">
+                <h2>BFFs</h2>
+                <p>Whether best friends or best frenemies, <span class="character-name"></span> talked to these characters the most in <span class="season"></span>.</p>
+              </div>
+            </div>
+            <svg class="chart" id="bffs"></svg>
+        </div>
+    </main>
+    <div id="tooltip"></div>
     <script type="module" src="/src/character.js"></script>
   </body>
 </html>

@@ -13,11 +13,11 @@ df['CleanText'] = df['CleanText'].str.replace(r'[^\w\s]', '', regex=True).str.lo
 
 # List of common words to ignore (Stopwords)
 STOPWORDS = set([
-    'i', 'me', 'my', 'myself', 'we', 'our', 'ours', 'ourselves', 'you', "you're", 
-    "you've", "you'll", "you'd", 'your', 'yours', 'yourself', 'yourselves', 'he', 
-    'him', 'his', 'himself', 'she', "she's", 'her', 'hers', 'herself', 'it', 
-    "it's", 'its', 'itself', 'they', 'them', 'their', 'theirs', 'themselves', 
-    'what', 'which', 'who', 'whom', 'this', 'that', "that'll", 'these', 'those', 
+    'i', 'me', 'my', 'myself', 'we', 'our', 'ours', 'ourselves', 'you', "youre", 
+    "youve", "youll", "youd", 'your', 'yours', 'yourself', 'yourselves', 'he', 
+    'him', 'his', 'himself', 'she', "shes", 'her', 'hers', 'herself', 'it', 
+    "its", 'its', 'itself', 'they', 'them', 'their', 'theirs', 'themselves', 
+    'what', 'which', 'who', 'whom', 'this', 'that', "thatll", 'these', 'those', 
     'am', 'is', 'are', 'was', 'were', 'be', 'been', 'being', 'have', 'has', 
     'had', 'having', 'do', 'does', 'did', 'doing', 'a', 'an', 'the', 'and', 
     'but', 'if', 'or', 'because', 'as', 'until', 'while', 'of', 'at', 'by', 
@@ -27,7 +27,7 @@ STOPWORDS = set([
     'there', 'when', 'where', 'why', 'how', 'all', 'any', 'both', 'each', 'few', 
     'more', 'most', 'other', 'some', 'such', 'no', 'nor', 'not', 'only', 'own', 
     'same', 'so', 'than', 'too', 'very', 's', 't', 'can', 'will', 'just', 'don', 
-    "don't", 'should', "should've", 'now', 'd', 'll', 'm', 'o', 're', 've', 'y'
+    "dont", 'should', "shouldve", 'now', 'd', 'll', 'm', 'o', 're', 've', 'y'
 ])
 
 def get_top_content(text_series, clean_series, n=5):

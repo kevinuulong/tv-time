@@ -1,4 +1,5 @@
 import csv
+import json
 
 FILE = "./preprocessing/data/characters.csv"
 OUTPUT = ".preprocessing/data/out/characters_parsed.csv"
