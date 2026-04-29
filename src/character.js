@@ -93,10 +93,6 @@ function updateSeason() {
     const data = (index === 0) ? scriptData["top_content_overall"] : scriptData["seasons"][index]["top_content"];
 
     new TopWords(document.getElementById("top-words"), data);
-    console.log({
-        name: character,
-        children: filterBFFs(index),
-    })
     bffChart.data = {
         name: character,
         children: filterBFFs(index),
