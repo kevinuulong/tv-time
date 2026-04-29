@@ -1,12 +1,12 @@
 // Data
 import * as d3 from "d3";
 import "@fontsource/marcellus"; // Loads the Marcellus font
-let characterdata;
-fetch('/data/script_data.json')
+import "./styles/episode-characters.css"
+let characterdata = await fetch('/data/script_data.json')
     .then(response => response.json())
     .then(data => {
         //console.log(data);
-        characterdata = data;
+        return data;
     })
     .catch(error => {
         console.error('Error:', error);
