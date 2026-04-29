@@ -1,0 +1,127 @@
+.dropdown-check-list {
+  display: inline-block;
+  position: relative; /* Added for absolute positioning of dropdown content */
+  vertical-align: top; /* Ensures top alignment when multiple dropdowns are inline */
+}
+.dropdown-check-list .anchor {
+  display: flex;
+  padding: 10px 30px 10px 10px;
+  align-items: center;
+  gap: 30px;
+  position: relative;
+  cursor: pointer;
+  border-radius: 2px;
+  border: 1px solid #382E22;
+  background: #E5BB67;
+  color: #19150F;
+  font-family: Overpass;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  /*display: inline-block;
+  padding: 5px 50px 5px 10px;
+  border: 1px solid black; /* Changed border color for better visibility */
+}
+.dropdown-check-list .anchor:after {
+  position: absolute;
+  content: "";
+  border-left: 2px solid black;
+  border-top: 2px solid black;
+  padding: 5px;
+  right: 10px;
+  top: 20%;
+  -moz-transform: rotate(-135deg);
+  -ms-transform: rotate(-135deg);
+  -o-transform: rotate(-135deg);
+  -webkit-transform: rotate(-135deg);
+  transform: rotate(-135deg);
+}
+.dropdown-check-list .anchor:active:after {
+  right: 8px;
+  top: 21%;
+}
+/* Corrected selector to target the actual list divs */
+.dropdown-check-list div.seasons,
+.dropdown-check-list div.episodes {
+  padding: 2px;
+  /* display: none; is handled by inline style and JavaScript */
+  margin: 0;
+  border: 1px solid #382E22; /* Changed border color for better visibility */
+  position: absolute; /* Positions the dropdown content relative to its parent */
+  background-color: #E5BB67;
+  color: #19150F;
+  font-family: Overpass;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  z-index: 100; /* Ensures the dropdown appears above other content */
+  min-width: 100%;
+  width: max-content;
+  white-space: nowrap;
+  
+}
+.dropdown-check-list div.seasons li,
+.dropdown-check-list div.episodes li {
+  list-style: none;
+}
+
+button{
+  border-radius: 2px;
+  border: 1px solid #382E22;
+  padding: 10px 10px;
+  text-align: justify;
+  background: #E5BB67;
+  color: #19150F;
+  font-family: Overpass;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+body{
+  background: #19150F;
+  display: flex;
+  flex-direction: column; /* Stack controls and character panels vertically */
+  max-width: 1920px;
+  padding: 40px 0px 0px 20px;
+  align-items: flex-start; /* Aligns everything to the left */
+  gap: 20px;
+}
+
+#characters {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 20px;
+  width: 100%;
+  align-items: center;
+}
+
+.character_panel{
+  display: flex;
+  box-sizing: border-box; /* Ensures borders/padding don't increase the total width */
+  flex-direction: row; /* Align image and text side-by-side */
+  align-items: center; /* Vertically center the image and text */
+  border-radius: 4px;
+  border: 1px solid #382E22;
+  background: linear-gradient(90deg, rgba(56, 46, 34, 0.00) 60%, #382E22 70%);
+  color: #FFF;
+  font-family:"Marcellus";
+  text-align: left; /* Align text to the left */
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  break-inside: avoid;
+  margin-bottom: 20px; /* Replaces the flex gap */
+}
+
+/* Target images directly inside the panel */
+.character_panel img {
+  flex-shrink: 0; /* Prevents image from being squashed */
+  object-fit: cover; /* Prevents stretching */
+  border-radius: 4px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.4), 4px -4px 4px 0 rgba(0, 0, 0, 0.10) inset, -4px 4px 4px 0 rgba(255, 255, 255, 0.10) inset;
+}
