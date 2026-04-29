@@ -45,7 +45,7 @@ export function buildCharacterDictionary(data, characterMap = null) {
   const episodeLabels = Object.keys(episodeIndexMap);
 
   const wordCountToColor = (wc) => {
-    if (!wc) return "hsl(30, 20%, 95%)";
+    if (!wc) return "var(--level-1)";
     const norm = Math.log(wc + 1) / Math.log(maxWordCount + 1);
     return `hsl(30, 100%, ${95 - norm * 55}%)`;
   };
@@ -56,7 +56,7 @@ export function buildCharacterDictionary(data, characterMap = null) {
 
     episodeLabels.forEach(label => {
       appearances[label] = {
-        color: "hsl(30, 20%, 95%)",
+        color: "var(--level-1)",
         count: 0
       };
     });
