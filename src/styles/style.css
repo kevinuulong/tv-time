@@ -1,12 +1,7 @@
 :root {
-  --text: #6b6375;
-  --text-h: #08060d;
-  --bg: #fff;
-  --border: #e5e4e7;
-
-  font: 16px system-ui, sans-serif;
-  color: var(--text);
-  background: var(--bg);
+  font: 16px "Overpass Mono Variable", sans-serif;
+  color: var(--text-light);
+  background: var(--bg-dark);
 }
 
 body {
@@ -16,7 +11,6 @@ body {
 
 /* APP WRAPPER */
 #app {
-  width: 100vw;
   height: 100vh;
 
   display: flex;
@@ -44,14 +38,11 @@ body {
 .heatmap-container {
   display: inline-block;
 
-  max-height: 85vh;
   max-width: 80vw;
 
   overflow: auto;
 
-  border: 1px solid var(--border);
   padding: 10px;
-  background: #fff;
 }
 
 /* GRID */
@@ -68,7 +59,32 @@ body {
   position: sticky;
   top: 12px;
 
-  border: 1px solid var(--border);
+  border: 1px solid var(--bg-dark);
+  border-radius: 4px;
   padding: 12px;
-  background: #fafafa;
+  background: var(--level-1);
+}
+
+h3 {
+    font-family: Marcellus;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin: 0 10px 20px 0;
+    margin-bottom: 20px;
+}
+
+p { 
+  margin: 0;
+}
+
+.episode {
+  font-family: "Overpass Variable";
+  margin-bottom: 5px;
+}
+
+.wc {
+  font-family: "Overpass Variable";
+  font-size: 20px;
 }

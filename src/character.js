@@ -59,7 +59,6 @@ previous.addEventListener("click", () => {
 });
 
 function filterBFFs(season, n = 5) {
-    console.log(season, n);
     let filtered = bffData;
     if (season) {
         filtered = bffData.filter((link) => link.season === season);
@@ -94,7 +93,11 @@ function updateSeason() {
     const data = (index === 0) ? scriptData["top_content_overall"] : scriptData["seasons"][index]["top_content"];
 
     new TopWords(document.getElementById("top-words"), data);
-    console.log(filterBFFs(index));
+    bffChart.data = {
+        name: character,
+        children: filterBFFs(index),
+    }
+    bffChart.updateVis();
 }
 
 seasonPicker.addEventListener("change", updateControls);
@@ -116,8 +119,6 @@ if (character) {
         prev[character.code] = character;
         return prev;
     }, {});
-
-    console.log(bffData);
 
     // Hydrate all the character-name placeholders
     document.querySelectorAll(".character-name").forEach((el) => {

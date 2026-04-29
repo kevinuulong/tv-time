@@ -7,6 +7,7 @@ export default defineConfig({
       input: {
         main: resolve(__dirname, "index.html"),
         character: resolve(__dirname, "character.html"),
+        episodeCharacters: resolve(__dirname, "episode-characters.html"),
       },
     },
   },

@@ -11,7 +11,6 @@ export default class TopWords {
         ol.className = this.el.className;
         ol.id = this.el.id;
 
-        console.log(this.data);
         this.data.forEach(item => {
             const li = document.createElement("li");
             const { term, sample, count } = item;

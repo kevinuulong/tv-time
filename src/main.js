@@ -1,4 +1,14 @@
-import './styles/style.css'
+import "./styles/colors.css";
+import './styles/style.css';
+
+import '@fontsource/marcellus-sc';
+import '@fontsource/marcellus';
+// Supports weights 300-700
+import '@fontsource-variable/overpass-mono/wght.css';
+// Supports weights 100-900
+import '@fontsource-variable/overpass/wght.css';
+import '@fontsource-variable/overpass/wght-italic.css';
+
 import { buildCharacterDictionary } from './appearanceChart.js'
 
 // =========================
@@ -115,8 +125,8 @@ function render(grid, panel, data, characterMap) {
     panel.innerHTML = `
       <h3>${meta?.character ?? code}</h3>
       ${meta?.image ? `<img src="${meta.image}" style="width:100%;border-radius:6px;margin-bottom:10px;">` : ""}
-      <p><strong>${ep}</strong></p>
-      <p><strong>${cell.count}</strong> words</p>
+      <p class="episode">${ep}</p>
+      <p class="wc"><strong>${cell.count}</strong> words</p>
     `
   }
 
@@ -149,7 +159,7 @@ function render(grid, panel, data, characterMap) {
       cell.style.borderRadius = "3px"
 
       const cellData = data[code].appearances[ep] ?? {
-        color: "hsl(30,20%,95%)",
+        color: "var(--bg-dark)",
         count: 0
       }
 

@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Characters in Episodes</title>
+  </head>
+  <body>
+    <div>
+      <div id="season-list" class="dropdown-check-list" tabindex="100">
+      <span class="anchor">Select Seasons</span>
+      <div class="seasons" id="seasons" style="display: none;">
+        <label><input type="checkbox" value="1"/> Season 1</label><br>
+        <label><input type="checkbox" value="2"/> Season 2</label><br>
+        <label><input type="checkbox" value="3"/> Season 3</label><br>
+        <label><input type="checkbox" value="4"/> Season 4</label><br>
+        <label><input type="checkbox" value="5"/> Season 5</label><br>
+        <label><input type="checkbox" value="6"/> Season 6</label><br>
+        <label><input type="checkbox" value="7"/> Season 7</label><br>
+        <label><input type="checkbox" value="8"/> Season 8</label><br>
+      </div>
+    </div>
+    <div id="episode-list" class="dropdown-check-list" tabindex="100">
+      <span class="anchor">Select Episodes</span>
+      <div class="episodes" id="episodes" style="display: none;">
+      </div>
+    </div>
+    <button id="getCharacters">Get Characters</button>
+    </div>
+    <div id="characters"></div>
+    <script type="module" src="/src/episode-characters.js"></script>
+  </body>
+  
+</html>
