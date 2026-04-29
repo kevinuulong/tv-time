@@ -11,6 +11,10 @@ import '@fontsource-variable/overpass/wght-italic.css';
 
 import { buildCharacterDictionary } from './appearanceChart.js'
 
+import { hydrateIcons } from "./utils/icons.js";
+
+hydrateIcons();
+
 // =========================
 // CSV (code = key)
 // =========================
@@ -144,11 +148,13 @@ function render(grid, panel, data, characterMap) {
   codes.forEach(code => {
     const meta = characterMap.get(code)
 
-    const label = document.createElement("div")
+    const label = document.createElement("a")
     label.textContent = meta?.character ?? code
     label.style.fontSize = "12px"
     label.style.display = "flex"
     label.style.alignItems = "center"
+    label.href = `/character?id=${code}`;
+    label.className = "character-link";
 
     grid.appendChild(label)
 

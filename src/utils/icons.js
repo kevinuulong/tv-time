@@ -1,9 +1,13 @@
 import ChevronLeftIcon from "../assets/icons/chevron_left.svg?raw";
 import ChevronRightIcon from "../assets/icons/chevron_right.svg?raw";
+import ListIcon from "../assets/icons/list.svg?raw";
+import MapIcon from "../assets/icons/map.svg?raw";
 
 const iconMap = {
     "chevron-left": ChevronLeftIcon,
     "chevron-right": ChevronRightIcon,
+    "list": ListIcon,
+    "map": MapIcon,
 };
 
 const parser = new DOMParser();
