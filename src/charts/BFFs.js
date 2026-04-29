@@ -80,7 +80,7 @@ export default class BFFs {
                         .style("display", "flex")
                         .style("left", `${e.pageX + 8}px`)
                         .style("top", `${e.pageY + 8}px`)
-                        .html(`${d.target.data.weight} lines`)
+                        .html(`${d.target.data.weight} line${(d.target.data.weight > 1) ? "s" : ""}`)
                 }
             })
 
@@ -114,7 +114,7 @@ export default class BFFs {
                         .style("display", "flex")
                         .style("left", `${e.pageX + 8}px`)
                         .style("top", `${e.pageY + 8}px`)
-                        .html(`${d.data.weight} lines`)
+                        .html(`${d.data.weight} line${(d.data.weight > 1) ? "s" : ""}`)
                 }
             })
 
