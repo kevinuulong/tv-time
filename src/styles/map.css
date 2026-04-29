@@ -1,5 +1,237 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    height: 100%;
+    overflow: hidden;
+}
+
+#map-page {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #19150F;
+}
+
+#container {
+    width: 80%;
+    height: 80%;
+    display: flex;
+    border: 5px solid;
+    border-color: #E5BB67;
+}
+
+#sidebar {
+    width: 33%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #382E22;
+    border-right: 10px solid;
+    border-color: #E5BB67;
+    gap: 12px;
+}
+
+#sidebar-title {
+    color: #E5BB67;
+    font-size: 2rem;
+    text-align: center;
+    letter-spacing: 0.05em;
+}
+
+#sidebar-inner {
+    width: 90%;
+    height: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+#sidebar-top {
+    height: 55%;
+    overflow-y: auto;
+    padding: 10px;
+    scrollbar-width: thin;
+    scrollbar-color: #E5BB67 #19150F;
+    border: 1px solid #ffffff;
+    border-radius: 5px;
+}
+
+#sidebar-top::-webkit-scrollbar {
+    width: 5px;
+}
+#sidebar-top::-webkit-scrollbar-track {
+    background: #19150F;
+}
+#sidebar-top::-webkit-scrollbar-thumb {
+    background-color: #E5BB67;
+    border-radius: 4px;
+}
+
+.log-wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.log-empty {
+    color: #7a6a50;
+    font-size: 0.78rem;
+    text-align: center;
+    padding: 20px 8px;
+    font-style: italic;
+    letter-spacing: 0.04em;
+}
+
+.log-location {
+    color: #E5BB67;
+    font-size: 0.7rem;
+    font-weight: bold;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    border-bottom: 1px solid #4a3e2a;
+    padding-bottom: 4px;
+    margin-bottom: 6px;
+}
+
+.log-entry {
+    font-size: 0.78rem;
+    color: #c9bfae;
+    line-height: 1.5;
+    padding: 2px 0;
+}
+
+.log-char {
+    color: #E5BB67;
+    font-weight: bold;
+}
+
+.log-weapon-name {
+    color: #d4a855;
+    font-style: italic;
+}
+
+.log-action {
+    display: block;
+}
+
+.log-death {
+    color: #c0392b;
+}
+
+.log-death .log-char {
+    color: #e74c3c;
+}
+
+.log-sex {
+    color: #c084a0;
+}
+
+.log-sex .log-char {
+    color: #e091b8;
+    font-weight: bold;
+}
+
+.log-marry {
+    color: #a3c4bc;
+}
+
+.log-marry .log-char {
+    color: #b8ddd5;
+    font-weight: bold;
+}
+
+.log-weapon {
+    color: #8ab0c4;
+}
+
+.log-weapon .log-char {
+    color: #9dc8e0;
+    font-weight: bold;
+}
+
+.log-location-name {
+    color: #c9bfae;
+}
+
+.log-scene-count {
+    color: #7a6a50;
+    font-size: 0.72rem;
+    float: right;
+}
+
+.log-episode-heading {
+    color: #c9a84c;
+    font-size: 0.72rem;
+    font-weight: bold;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    margin-top: 10px;
+    margin-bottom: 4px;
+    padding-bottom: 3px;
+    border-bottom: 1px solid #6b5a3a;
+}
+
+.log-character-heading {
+    color: #E5BB67;
+    font-size: 0.78rem;
+    font-weight: bold;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    border-bottom: 2px solid #E5BB67;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+}
+
+#sidebar-bottom {
+    height: 35%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 16px;
+    padding: 16px;
+    border: 1px solid #ffffff;
+    border-radius: 5px;
+}
+
+.filter-group {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+}
+
+.filter-label {
+    color: #E5BB67;
+    font-size: 0.75rem;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+}
+
+.filter-select {
+    background-color: #19150F;
+    color: #fff;
+    border: 1px solid #E5BB67;
+    border-radius: 4px;
+    padding: 6px 8px;
+    font-size: 0.85rem;
+    width: 100%;
+    cursor: pointer;
+}
+
+.filter-select:focus {
+    outline: none;
+    border-color: #fff;
+}
+
 #map {
-  height: 100vh;
-  width: 100%;
-  background: #a8c8e8;
+    width: 67%;
+    height: 100%;
+    background: #a8c8e8;
 }
