@@ -8785,9 +8785,9 @@
             }
         },
         {
-            "id": "DAENARYS TARGARYEN",
+            "id": "DAENERYS TARGARYEN",
             "total_episodes_count": 59,
-            "total_word_count": 12247,
+            "total_word_count": 12282,
             "top_content_overall": [
                 {
                     "term": "know",
@@ -8817,7 +8817,7 @@
             ],
             "seasons": {
                 "1": {
-                    "season_word_count": 1285,
+                    "season_word_count": 1290,
                     "episodes": [
                         {
                             "episode_number": 1,
@@ -8847,7 +8847,7 @@
                         {
                             "episode_number": 7,
                             "episode_name": "You Win or You Die",
-                            "word_count": 165
+                            "word_count": 170
                         },
                         {
                             "episode_number": 8,
@@ -9038,12 +9038,12 @@
                     ]
                 },
                 "4": {
-                    "season_word_count": 1490,
+                    "season_word_count": 1520,
                     "episodes": [
                         {
                             "episode_number": 1,
                             "episode_name": "Two Swords",
-                            "word_count": 142
+                            "word_count": 172
                         },
                         {
                             "episode_number": 3,
@@ -9364,114 +9364,6 @@
                             "term": "see",
                             "count": 8,
                             "sample": " I don't see an army. I see one man, with one hand. It appears your sister lied to me."
-                        }
-                    ]
-                }
-            }
-        },
-        {
-            "id": "DAENERYS TARGARYEN",
-            "total_episodes_count": 2,
-            "total_word_count": 35,
-            "top_content_overall": [
-                {
-                    "term": "ser",
-                    "count": 2,
-                    "sample": "That honor goes to Ser Jorah and Ser Barristan as neither of them kept me waiting this morning. You two will ride in the rear guard and protect the livestock."
-                },
-                {
-                    "term": "well",
-                    "count": 1,
-                    "sample": " Well, I'll come with you."
-                },
-                {
-                    "term": "ill",
-                    "count": 1,
-                    "sample": "N/A"
-                },
-                {
-                    "term": "come",
-                    "count": 1,
-                    "sample": " Well, I'll come with you."
-                },
-                {
-                    "term": "honor",
-                    "count": 1,
-                    "sample": "That honor goes to Ser Jorah and Ser Barristan as neither of them kept me waiting this morning. You two will ride in the rear guard and protect the livestock."
-                }
-            ],
-            "seasons": {
-                "1": {
-                    "season_word_count": 5,
-                    "episodes": [
-                        {
-                            "episode_number": 7,
-                            "episode_name": "You Win or You Die",
-                            "word_count": 5
-                        }
-                    ],
-                    "top_content": [
-                        {
-                            "term": "well",
-                            "count": 1,
-                            "sample": " Well, I'll come with you."
-                        },
-                        {
-                            "term": "ill",
-                            "count": 1,
-                            "sample": "N/A"
-                        },
-                        {
-                            "term": "come",
-                            "count": 1,
-                            "sample": " Well, I'll come with you."
-                        },
-                        {
-                            "term": "well ill",
-                            "count": 1,
-                            "sample": "N/A"
-                        },
-                        {
-                            "term": "ill come",
-                            "count": 1,
-                            "sample": "N/A"
-                        }
-                    ]
-                },
-                "4": {
-                    "season_word_count": 30,
-                    "episodes": [
-                        {
-                            "episode_number": 1,
-                            "episode_name": "Two Swords",
-                            "word_count": 30
-                        }
-                    ],
-                    "top_content": [
-                        {
-                            "term": "ser",
-                            "count": 2,
-                            "sample": "That honor goes to Ser Jorah and Ser Barristan as neither of them kept me waiting this morning. You two will ride in the rear guard and protect the livestock."
-                        },
-                        {
-                            "term": "honor",
-                            "count": 1,
-                            "sample": "That honor goes to Ser Jorah and Ser Barristan as neither of them kept me waiting this morning. You two will ride in the rear guard and protect the livestock."
-                        },
-                        {
-                            "term": "goes",
-                            "count": 1,
-                            "sample": "That honor goes to Ser Jorah and Ser Barristan as neither of them kept me waiting this morning. You two will ride in the rear guard and protect the livestock."
-                        },
-                        {
-                            "term": "jorah",
-                            "count": 1,
-                            "sample": "That honor goes to Ser Jorah and Ser Barristan as neither of them kept me waiting this morning. You two will ride in the rear guard and protect the livestock."
-                        },
-                        {
-                            "term": "barristan",
-                            "count": 1,
-                            "sample": "That honor goes to Ser Jorah and Ser Barristan as neither of them kept me waiting this morning. You two will ride in the rear guard and protect the livestock."
                         }
                     ]
                 }
@@ -53607,7 +53499,7 @@
         },
         {
             "source": "ANNOUNCER",
-            "target": "DAENARYS TARGARYEN",
+            "target": "DAENERYS TARGARYEN",
             "season": 5,
             "weight": 1
         },
@@ -54387,19 +54279,19 @@
         },
         {
             "source": "BARRISTAN SELMY",
-            "target": "DAENARYS TARGARYEN",
+            "target": "DAENERYS TARGARYEN",
             "season": 3,
             "weight": 8
         },
         {
             "source": "BARRISTAN SELMY",
-            "target": "DAENARYS TARGARYEN",
+            "target": "DAENERYS TARGARYEN",
             "season": 4,
             "weight": 7
         },
         {
             "source": "BARRISTAN SELMY",
-            "target": "DAENARYS TARGARYEN",
+            "target": "DAENERYS TARGARYEN",
             "season": 5,
             "weight": 13
         },
@@ -55719,7 +55611,7 @@
         },
         {
             "source": "BRONN",
-            "target": "DAENARYS TARGARYEN",
+            "target": "DAENERYS TARGARYEN",
             "season": 7,
             "weight": 1
         },
@@ -56511,13 +56403,13 @@
         },
         {
             "source": "CERSEI LANNISTER",
-            "target": "DAENARYS TARGARYEN",
+            "target": "DAENERYS TARGARYEN",
             "season": 5,
             "weight": 1
         },
         {
             "source": "CERSEI LANNISTER",
-            "target": "DAENARYS TARGARYEN",
+            "target": "DAENERYS TARGARYEN",
             "season": 7,
             "weight": 4
         },
@@ -57099,7 +56991,7 @@
         },
         {
             "source": "CHAMPION",
-            "target": "DAENARYS TARGARYEN",
+            "target": "DAENERYS TARGARYEN",
             "season": 4,
             "weight": 2
         },
@@ -57249,13 +57141,13 @@
         },
         {
             "source": "CROWD",
-            "target": "DAENARYS TARGARYEN",
+            "target": "DAENERYS TARGARYEN",
             "season": 3,
             "weight": 3
         },
         {
             "source": "CROWD",
-            "target": "DAENARYS TARGARYEN",
+            "target": "DAENERYS TARGARYEN",
             "season": 4,
             "weight": 1
         },
@@ -57417,13 +57309,13 @@
         },
         {
             "source": "CUT TO",
-            "target": "DAENARYS TARGARYEN",
+            "target": "DAENERYS TARGARYEN",
             "season": 3,
             "weight": 1
         },
         {
             "source": "CUT TO",
-            "target": "DAENARYS TARGARYEN",
+            "target": "DAENERYS TARGARYEN",
             "season": 8,
             "weight": 1
         },
@@ -57603,33 +57495,27 @@
         },
         {
             "source": "DAARIO NAHARIS",
-            "target": "DAENARYS TARGARYEN",
+            "target": "DAENERYS TARGARYEN",
             "season": 3,
             "weight": 9
         },
         {
             "source": "DAARIO NAHARIS",
-            "target": "DAENARYS TARGARYEN",
+            "target": "DAENERYS TARGARYEN",
             "season": 4,
-            "weight": 14
-        },
-        {
-            "source": "DAARIO NAHARIS",
-            "target": "DAENARYS TARGARYEN",
-            "season": 5,
-            "weight": 16
-        },
-        {
-            "source": "DAARIO NAHARIS",
-            "target": "DAENARYS TARGARYEN",
-            "season": 6,
             "weight": 15
         },
         {
             "source": "DAARIO NAHARIS",
             "target": "DAENERYS TARGARYEN",
-            "season": 4,
-            "weight": 1
+            "season": 5,
+            "weight": 16
+        },
+        {
+            "source": "DAARIO NAHARIS",
+            "target": "DAENERYS TARGARYEN",
+            "season": 6,
+            "weight": 15
         },
         {
             "source": "DAARIO NAHARIS",
@@ -57722,663 +57608,657 @@
             "weight": 7
         },
         {
-            "source": "DAENARYS TARGARYEN",
+            "source": "DAENERYS TARGARYEN",
             "target": "ANNOUNCER",
             "season": 5,
             "weight": 1
         },
         {
-            "source": "DAENARYS TARGARYEN",
+            "source": "DAENERYS TARGARYEN",
             "target": "ARYA STARK",
             "season": 1,
             "weight": 1
         },
         {
-            "source": "DAENARYS TARGARYEN",
+            "source": "DAENERYS TARGARYEN",
             "target": "ARYA STARK",
             "season": 8,
             "weight": 2
         },
         {
-            "source": "DAENARYS TARGARYEN",
+            "source": "DAENERYS TARGARYEN",
             "target": "BARRISTAN SELMY",
             "season": 3,
             "weight": 9
         },
         {
-            "source": "DAENARYS TARGARYEN",
+            "source": "DAENERYS TARGARYEN",
             "target": "BARRISTAN SELMY",
             "season": 4,
             "weight": 6
         },
         {
-            "source": "DAENARYS TARGARYEN",
+            "source": "DAENERYS TARGARYEN",
             "target": "BARRISTAN SELMY",
             "season": 5,
             "weight": 16
         },
         {
-            "source": "DAENARYS TARGARYEN",
+            "source": "DAENERYS TARGARYEN",
             "target": "BLACK LORREN",
             "season": 2,
             "weight": 1
         },
         {
-            "source": "DAENARYS TARGARYEN",
+            "source": "DAENERYS TARGARYEN",
             "target": "BRAN STARK",
             "season": 3,
             "weight": 1
         },
         {
-            "source": "DAENARYS TARGARYEN",
+            "source": "DAENERYS TARGARYEN",
             "target": "BRONN",
             "season": 2,
             "weight": 1
         },
         {
-            "source": "DAENARYS TARGARYEN",
+            "source": "DAENERYS TARGARYEN",
             "target": "CERSEI LANNISTER",
             "season": 4,
             "weight": 1
         },
         {
-            "source": "DAENARYS TARGARYEN",
+            "source": "DAENERYS TARGARYEN",
             "target": "CERSEI LANNISTER",
             "season": 7,
             "weight": 3
         },
         {
-            "source": "DAENARYS TARGARYEN",
+            "source": "DAENERYS TARGARYEN",
             "target": "CROWD",
             "season": 5,
             "weight": 1
         },
         {
-            "source": "DAENARYS TARGARYEN",
+            "source": "DAENERYS TARGARYEN",
             "target": "CUT TO",
             "season": 3,
             "weight": 1
         },
         {
-            "source": "DAENARYS TARGARYEN",
+            "source": "DAENERYS TARGARYEN",
             "target": "CUT TO",
             "season": 4,
             "weight": 1
         },
         {
-            "source": "DAENARYS TARGARYEN",
+            "source": "DAENERYS TARGARYEN",
             "target": "CUT TO",
             "season": 7,
             "weight": 2
         },
         {
-            "source": "DAENARYS TARGARYEN",
+            "source": "DAENERYS TARGARYEN",
             "target": "CUT TO",
             "season": 8,
             "weight": 1
         },
         {
-            "source": "DAENARYS TARGARYEN",
+            "source": "DAENERYS TARGARYEN",
             "target": "DAARIO NAHARIS",
             "season": 3,
             "weight": 11
         },
         {
-            "source": "DAENARYS TARGARYEN",
+            "source": "DAENERYS TARGARYEN",
             "target": "DAARIO NAHARIS",
             "season": 4,
             "weight": 15
         },
         {
-            "source": "DAENARYS TARGARYEN",
+            "source": "DAENERYS TARGARYEN",
             "target": "DAARIO NAHARIS",
             "season": 5,
             "weight": 16
         },
         {
-            "source": "DAENARYS TARGARYEN",
+            "source": "DAENERYS TARGARYEN",
             "target": "DAARIO NAHARIS",
             "season": 6,
             "weight": 13
         },
         {
-            "source": "DAENARYS TARGARYEN",
+            "source": "DAENERYS TARGARYEN",
             "target": "DAVOS SEAWORTH",
             "season": 3,
             "weight": 2
         },
         {
-            "source": "DAENARYS TARGARYEN",
+            "source": "DAENERYS TARGARYEN",
             "target": "DAVOS SEAWORTH",
             "season": 7,
             "weight": 2
         },
         {
-            "source": "DAENARYS TARGARYEN",
+            "source": "DAENERYS TARGARYEN",
             "target": "DOREAH",
             "season": 1,
             "weight": 7
         },
         {
-            "source": "DAENARYS TARGARYEN",
+            "source": "DAENERYS TARGARYEN",
             "target": "DOREAH",
             "season": 2,
             "weight": 4
         },
         {
-            "source": "DAENARYS TARGARYEN",
+            "source": "DAENERYS TARGARYEN",
             "target": "DOSH KHALEEN LEADER",
             "season": 6,
             "weight": 3
         },
         {
-            "source": "DAENARYS TARGARYEN",
+            "source": "DAENERYS TARGARYEN",
             "target": "DOTHRAKI",
             "season": 8,
             "weight": 1
         },
         {
-            "source": "DAENARYS TARGARYEN",
+            "source": "DAENERYS TARGARYEN",
             "target": "DOTHRAKI WOMAN",
             "season": 6,
             "weight": 3
         },
         {
-            "source": "DAENARYS TARGARYEN",
+            "source": "DAENERYS TARGARYEN",
             "target": "EDDARD STARK",
             "season": 1,
             "weight": 3
         },
         {
-            "source": "DAENARYS TARGARYEN",
+            "source": "DAENERYS TARGARYEN",
             "target": "EXT",
             "season": 2,
             "weight": 1
         },
         {
-            "source": "DAENARYS TARGARYEN",
+            "source": "DAENERYS TARGARYEN",
             "target": "FENNESZ",
             "season": 4,
             "weight": 7
         },
         {
-            "source": "DAENARYS TARGARYEN",
+            "source": "DAENERYS TARGARYEN",
             "target": "GENDRY BARATHEON",
             "season": 2,
             "weight": 3
         },
         {
-            "source": "DAENARYS TARGARYEN",
+            "source": "DAENERYS TARGARYEN",
             "target": "GENDRY BARATHEON",
             "season": 3,
             "weight": 2
         },
         {
-            "source": "DAENARYS TARGARYEN",
+            "source": "DAENERYS TARGARYEN",
             "target": "GENDRY BARATHEON",
             "season": 8,
             "weight": 4
         },
         {
-            "source": "DAENARYS TARGARYEN",
+            "source": "DAENERYS TARGARYEN",
             "target": "GILLY",
             "season": 5,
             "weight": 1
         },
         {
-            "source": "DAENARYS TARGARYEN",
+            "source": "DAENERYS TARGARYEN",
             "target": "GOATHERD",
             "season": 4,
             "weight": 1
         },
         {
-            "source": "DAENARYS TARGARYEN",
+            "source": "DAENERYS TARGARYEN",
             "target": "GREIZHEN MO ULLHOR",
             "season": 3,
             "weight": 1
         },
         {
-            "source": "DAENARYS TARGARYEN",
+            "source": "DAENERYS TARGARYEN",
             "target": "GREY WORM",
             "season": 3,
             "weight": 3
         },
         {
-            "source": "DAENARYS TARGARYEN",
+            "source": "DAENERYS TARGARYEN",
             "target": "GREY WORM",
             "season": 4,
             "weight": 2
         },
         {
-            "source": "DAENARYS TARGARYEN",
+            "source": "DAENERYS TARGARYEN",
             "target": "GREY WORM",
             "season": 5,
             "weight": 1
         },
         {
-            "source": "DAENARYS TARGARYEN",
+            "source": "DAENERYS TARGARYEN",
             "target": "HIZDAHR ZO LORAQ",
             "season": 4,
             "weight": 8
         },
         {
-            "source": "DAENARYS TARGARYEN",
+            "source": "DAENERYS TARGARYEN",
             "target": "HIZDAHR ZO LORAQ",
             "season": 5,
             "weight": 20
         },
         {
-            "source": "DAENARYS TARGARYEN",
+            "source": "DAENERYS TARGARYEN",
             "target": "INT",
             "season": 3,
             "weight": 1
         },
         {
-            "source": "DAENARYS TARGARYEN",
+            "source": "DAENERYS TARGARYEN",
             "target": "INT",
             "season": 4,
             "weight": 1
         },
         {
-            "source": "DAENARYS TARGARYEN",
+            "source": "DAENERYS TARGARYEN",
             "target": "IRRI",
             "season": 1,
             "weight": 5
         },
         {
-            "source": "DAENARYS TARGARYEN",
+            "source": "DAENERYS TARGARYEN",
             "target": "IRRI",
             "season": 2,
             "weight": 3
         },
         {
-            "source": "DAENARYS TARGARYEN",
+            "source": "DAENERYS TARGARYEN",
             "target": "JAIME LANNISTER",
             "season": 3,
             "weight": 1
         },
         {
-            "source": "DAENARYS TARGARYEN",
+            "source": "DAENERYS TARGARYEN",
             "target": "JAIME LANNISTER",
-            "season": 7,
-            "weight": 1
-        },
-        {
-            "source": "DAENARYS TARGARYEN",
-            "target": "JAIME LANNISTER",
-            "season": 8,
-            "weight": 3
-        },
-        {
-            "source": "DAENARYS TARGARYEN",
-            "target": "JON SNOW",
-            "season": 7,
-            "weight": 34
-        },
-        {
-            "source": "DAENARYS TARGARYEN",
-            "target": "JON SNOW",
-            "season": 8,
-            "weight": 22
-        },
-        {
-            "source": "DAENARYS TARGARYEN",
-            "target": "JORAH MORMONT",
-            "season": 1,
-            "weight": 41
-        },
-        {
-            "source": "DAENARYS TARGARYEN",
-            "target": "JORAH MORMONT",
-            "season": 2,
-            "weight": 36
-        },
-        {
-            "source": "DAENARYS TARGARYEN",
-            "target": "JORAH MORMONT",
-            "season": 3,
-            "weight": 15
-        },
-        {
-            "source": "DAENARYS TARGARYEN",
-            "target": "JORAH MORMONT",
-            "season": 4,
-            "weight": 36
-        },
-        {
-            "source": "DAENARYS TARGARYEN",
-            "target": "JORAH MORMONT",
-            "season": 6,
-            "weight": 4
-        },
-        {
-            "source": "DAENARYS TARGARYEN",
-            "target": "JORAH MORMONT",
-            "season": 7,
-            "weight": 3
-        },
-        {
-            "source": "DAENARYS TARGARYEN",
-            "target": "JORAH MORMONT",
-            "season": 8,
-            "weight": 7
-        },
-        {
-            "source": "DAENARYS TARGARYEN",
-            "target": "KHAL DROGO",
-            "season": 1,
-            "weight": 13
-        },
-        {
-            "source": "DAENARYS TARGARYEN",
-            "target": "KHAL DROGO",
-            "season": 2,
-            "weight": 1
-        },
-        {
-            "source": "DAENARYS TARGARYEN",
-            "target": "KHAL MORO",
-            "season": 6,
-            "weight": 5
-        },
-        {
-            "source": "DAENARYS TARGARYEN",
-            "target": "KHAL WIDOW (ANY)",
-            "season": 6,
-            "weight": 1
-        },
-        {
-            "source": "DAENARYS TARGARYEN",
-            "target": "KOVARRO",
-            "season": 2,
-            "weight": 4
-        },
-        {
-            "source": "DAENARYS TARGARYEN",
-            "target": "KRAZNYS MO NAKLOZ",
-            "season": 3,
-            "weight": 7
-        },
-        {
-            "source": "DAENARYS TARGARYEN",
-            "target": "LHAZAREEN WOMAN",
-            "season": 6,
-            "weight": 4
-        },
-        {
-            "source": "DAENARYS TARGARYEN",
-            "target": "MAGO",
-            "season": 1,
-            "weight": 1
-        },
-        {
-            "source": "DAENARYS TARGARYEN",
-            "target": "MAN",
-            "season": 4,
-            "weight": 1
-        },
-        {
-            "source": "DAENARYS TARGARYEN",
-            "target": "MELISANDRE",
-            "season": 5,
-            "weight": 3
-        },
-        {
-            "source": "DAENARYS TARGARYEN",
-            "target": "MELISANDRE",
-            "season": 7,
-            "weight": 4
-        },
-        {
-            "source": "DAENARYS TARGARYEN",
-            "target": "MERO",
-            "season": 3,
-            "weight": 4
-        },
-        {
-            "source": "DAENARYS TARGARYEN",
-            "target": "MIRRI MAZ DUUR",
-            "season": 1,
-            "weight": 13
-        },
-        {
-            "source": "DAENARYS TARGARYEN",
-            "target": "MISSANDEI",
-            "season": 3,
-            "weight": 20
-        },
-        {
-            "source": "DAENARYS TARGARYEN",
-            "target": "MISSANDEI",
-            "season": 4,
-            "weight": 19
-        },
-        {
-            "source": "DAENARYS TARGARYEN",
-            "target": "MISSANDEI",
-            "season": 5,
-            "weight": 2
-        },
-        {
-            "source": "DAENARYS TARGARYEN",
-            "target": "MISSANDEI",
-            "season": 7,
-            "weight": 3
-        },
-        {
-            "source": "DAENARYS TARGARYEN",
-            "target": "MOSSADOR",
-            "season": 5,
-            "weight": 6
-        },
-        {
-            "source": "DAENARYS TARGARYEN",
-            "target": "OLENNA TYRELL",
-            "season": 7,
-            "weight": 2
-        },
-        {
-            "source": "DAENARYS TARGARYEN",
-            "target": "PRENDAHL NA GHEZN",
-            "season": 3,
-            "weight": 1
-        },
-        {
-            "source": "DAENARYS TARGARYEN",
-            "target": "PYAT PREE",
-            "season": 2,
-            "weight": 3
-        },
-        {
-            "source": "DAENARYS TARGARYEN",
-            "target": "QOTHO",
-            "season": 1,
-            "weight": 7
-        },
-        {
-            "source": "DAENARYS TARGARYEN",
-            "target": "RAKHARO",
-            "season": 1,
-            "weight": 2
-        },
-        {
-            "source": "DAENARYS TARGARYEN",
-            "target": "RAKHARO",
-            "season": 2,
-            "weight": 3
-        },
-        {
-            "source": "DAENARYS TARGARYEN",
-            "target": "RANDYLL TARLY",
-            "season": 7,
-            "weight": 2
-        },
-        {
-            "source": "DAENARYS TARGARYEN",
-            "target": "RAZDAL MO ERAZ",
-            "season": 3,
-            "weight": 7
-        },
-        {
-            "source": "DAENARYS TARGARYEN",
-            "target": "RAZDAL MO ERAZ",
-            "season": 6,
-            "weight": 1
-        },
-        {
-            "source": "DAENARYS TARGARYEN",
-            "target": "SAMWELL TARLY",
-            "season": 5,
-            "weight": 1
-        },
-        {
-            "source": "DAENARYS TARGARYEN",
-            "target": "SAMWELL TARLY",
-            "season": 7,
-            "weight": 6
-        },
-        {
-            "source": "DAENARYS TARGARYEN",
-            "target": "SAMWELL TARLY",
-            "season": 8,
-            "weight": 5
-        },
-        {
-            "source": "DAENARYS TARGARYEN",
-            "target": "SANSA STARK",
-            "season": 3,
-            "weight": 1
-        },
-        {
-            "source": "DAENARYS TARGARYEN",
-            "target": "SANSA STARK",
-            "season": 7,
-            "weight": 1
-        },
-        {
-            "source": "DAENARYS TARGARYEN",
-            "target": "SANSA STARK",
-            "season": 8,
-            "weight": 11
-        },
-        {
-            "source": "DAENARYS TARGARYEN",
-            "target": "SELYSE BARATHEON",
-            "season": 5,
-            "weight": 1
-        },
-        {
-            "source": "DAENARYS TARGARYEN",
-            "target": "SHIREEN BARATHEON",
-            "season": 5,
-            "weight": 2
-        },
-        {
-            "source": "DAENARYS TARGARYEN",
-            "target": "SILK KING",
-            "season": 2,
-            "weight": 1
-        },
-        {
-            "source": "DAENARYS TARGARYEN",
-            "target": "SPICE KING",
-            "season": 2,
-            "weight": 22
-        },
-        {
-            "source": "DAENARYS TARGARYEN",
-            "target": "THEON GREYJOY",
-            "season": 6,
-            "weight": 4
-        },
-        {
-            "source": "DAENARYS TARGARYEN",
-            "target": "THEON GREYJOY",
-            "season": 8,
-            "weight": 1
-        },
-        {
-            "source": "DAENARYS TARGARYEN",
-            "target": "TYRION LANNISTER",
-            "season": 5,
-            "weight": 34
-        },
-        {
-            "source": "DAENARYS TARGARYEN",
-            "target": "TYRION LANNISTER",
-            "season": 6,
-            "weight": 11
-        },
-        {
-            "source": "DAENARYS TARGARYEN",
-            "target": "TYRION LANNISTER",
-            "season": 7,
-            "weight": 29
-        },
-        {
-            "source": "DAENARYS TARGARYEN",
-            "target": "TYRION LANNISTER",
-            "season": 8,
-            "weight": 5
-        },
-        {
-            "source": "DAENARYS TARGARYEN",
-            "target": "VARYS",
-            "season": 5,
-            "weight": 3
-        },
-        {
-            "source": "DAENARYS TARGARYEN",
-            "target": "VARYS",
-            "season": 7,
-            "weight": 15
-        },
-        {
-            "source": "DAENARYS TARGARYEN",
-            "target": "VARYS",
-            "season": 8,
-            "weight": 1
-        },
-        {
-            "source": "DAENARYS TARGARYEN",
-            "target": "VISERYS TARGARYEN",
-            "season": 1,
-            "weight": 13
-        },
-        {
-            "source": "DAENARYS TARGARYEN",
-            "target": "WINE MERCHANT",
-            "season": 1,
-            "weight": 3
-        },
-        {
-            "source": "DAENARYS TARGARYEN",
-            "target": "WOMAN (ANY)",
-            "season": 2,
-            "weight": 1
-        },
-        {
-            "source": "DAENARYS TARGARYEN",
-            "target": "XARO XHOAN DAXOS",
-            "season": 2,
-            "weight": 21
-        },
-        {
-            "source": "DAENARYS TARGARYEN",
-            "target": "YARA GREYJOY",
-            "season": 6,
-            "weight": 6
-        },
-        {
-            "source": "DAENARYS TARGARYEN",
-            "target": "YARA GREYJOY",
             "season": 7,
             "weight": 1
         },
         {
             "source": "DAENERYS TARGARYEN",
+            "target": "JAIME LANNISTER",
+            "season": 8,
+            "weight": 3
+        },
+        {
+            "source": "DAENERYS TARGARYEN",
+            "target": "JON SNOW",
+            "season": 7,
+            "weight": 34
+        },
+        {
+            "source": "DAENERYS TARGARYEN",
+            "target": "JON SNOW",
+            "season": 8,
+            "weight": 22
+        },
+        {
+            "source": "DAENERYS TARGARYEN",
             "target": "JORAH MORMONT",
             "season": 1,
+            "weight": 42
+        },
+        {
+            "source": "DAENERYS TARGARYEN",
+            "target": "JORAH MORMONT",
+            "season": 2,
+            "weight": 36
+        },
+        {
+            "source": "DAENERYS TARGARYEN",
+            "target": "JORAH MORMONT",
+            "season": 3,
+            "weight": 15
+        },
+        {
+            "source": "DAENERYS TARGARYEN",
+            "target": "JORAH MORMONT",
+            "season": 4,
+            "weight": 36
+        },
+        {
+            "source": "DAENERYS TARGARYEN",
+            "target": "JORAH MORMONT",
+            "season": 6,
+            "weight": 4
+        },
+        {
+            "source": "DAENERYS TARGARYEN",
+            "target": "JORAH MORMONT",
+            "season": 7,
+            "weight": 3
+        },
+        {
+            "source": "DAENERYS TARGARYEN",
+            "target": "JORAH MORMONT",
+            "season": 8,
+            "weight": 7
+        },
+        {
+            "source": "DAENERYS TARGARYEN",
+            "target": "KHAL DROGO",
+            "season": 1,
+            "weight": 13
+        },
+        {
+            "source": "DAENERYS TARGARYEN",
+            "target": "KHAL DROGO",
+            "season": 2,
+            "weight": 1
+        },
+        {
+            "source": "DAENERYS TARGARYEN",
+            "target": "KHAL MORO",
+            "season": 6,
+            "weight": 5
+        },
+        {
+            "source": "DAENERYS TARGARYEN",
+            "target": "KHAL WIDOW (ANY)",
+            "season": 6,
+            "weight": 1
+        },
+        {
+            "source": "DAENERYS TARGARYEN",
+            "target": "KOVARRO",
+            "season": 2,
+            "weight": 4
+        },
+        {
+            "source": "DAENERYS TARGARYEN",
+            "target": "KRAZNYS MO NAKLOZ",
+            "season": 3,
+            "weight": 7
+        },
+        {
+            "source": "DAENERYS TARGARYEN",
+            "target": "LHAZAREEN WOMAN",
+            "season": 6,
+            "weight": 4
+        },
+        {
+            "source": "DAENERYS TARGARYEN",
+            "target": "MAGO",
+            "season": 1,
+            "weight": 1
+        },
+        {
+            "source": "DAENERYS TARGARYEN",
+            "target": "MAN",
+            "season": 4,
+            "weight": 1
+        },
+        {
+            "source": "DAENERYS TARGARYEN",
+            "target": "MELISANDRE",
+            "season": 5,
+            "weight": 3
+        },
+        {
+            "source": "DAENERYS TARGARYEN",
+            "target": "MELISANDRE",
+            "season": 7,
+            "weight": 4
+        },
+        {
+            "source": "DAENERYS TARGARYEN",
+            "target": "MERO",
+            "season": 3,
+            "weight": 4
+        },
+        {
+            "source": "DAENERYS TARGARYEN",
+            "target": "MIRRI MAZ DUUR",
+            "season": 1,
+            "weight": 13
+        },
+        {
+            "source": "DAENERYS TARGARYEN",
+            "target": "MISSANDEI",
+            "season": 3,
+            "weight": 20
+        },
+        {
+            "source": "DAENERYS TARGARYEN",
+            "target": "MISSANDEI",
+            "season": 4,
+            "weight": 19
+        },
+        {
+            "source": "DAENERYS TARGARYEN",
+            "target": "MISSANDEI",
+            "season": 5,
+            "weight": 2
+        },
+        {
+            "source": "DAENERYS TARGARYEN",
+            "target": "MISSANDEI",
+            "season": 7,
+            "weight": 3
+        },
+        {
+            "source": "DAENERYS TARGARYEN",
+            "target": "MOSSADOR",
+            "season": 5,
+            "weight": 6
+        },
+        {
+            "source": "DAENERYS TARGARYEN",
+            "target": "OLENNA TYRELL",
+            "season": 7,
+            "weight": 2
+        },
+        {
+            "source": "DAENERYS TARGARYEN",
+            "target": "PRENDAHL NA GHEZN",
+            "season": 3,
+            "weight": 1
+        },
+        {
+            "source": "DAENERYS TARGARYEN",
+            "target": "PYAT PREE",
+            "season": 2,
+            "weight": 3
+        },
+        {
+            "source": "DAENERYS TARGARYEN",
+            "target": "QOTHO",
+            "season": 1,
+            "weight": 7
+        },
+        {
+            "source": "DAENERYS TARGARYEN",
+            "target": "RAKHARO",
+            "season": 1,
+            "weight": 2
+        },
+        {
+            "source": "DAENERYS TARGARYEN",
+            "target": "RAKHARO",
+            "season": 2,
+            "weight": 3
+        },
+        {
+            "source": "DAENERYS TARGARYEN",
+            "target": "RANDYLL TARLY",
+            "season": 7,
+            "weight": 2
+        },
+        {
+            "source": "DAENERYS TARGARYEN",
+            "target": "RAZDAL MO ERAZ",
+            "season": 3,
+            "weight": 7
+        },
+        {
+            "source": "DAENERYS TARGARYEN",
+            "target": "RAZDAL MO ERAZ",
+            "season": 6,
+            "weight": 1
+        },
+        {
+            "source": "DAENERYS TARGARYEN",
+            "target": "SAMWELL TARLY",
+            "season": 5,
+            "weight": 1
+        },
+        {
+            "source": "DAENERYS TARGARYEN",
+            "target": "SAMWELL TARLY",
+            "season": 7,
+            "weight": 6
+        },
+        {
+            "source": "DAENERYS TARGARYEN",
+            "target": "SAMWELL TARLY",
+            "season": 8,
+            "weight": 5
+        },
+        {
+            "source": "DAENERYS TARGARYEN",
+            "target": "SANSA STARK",
+            "season": 3,
+            "weight": 1
+        },
+        {
+            "source": "DAENERYS TARGARYEN",
+            "target": "SANSA STARK",
+            "season": 7,
+            "weight": 1
+        },
+        {
+            "source": "DAENERYS TARGARYEN",
+            "target": "SANSA STARK",
+            "season": 8,
+            "weight": 11
+        },
+        {
+            "source": "DAENERYS TARGARYEN",
+            "target": "SELYSE BARATHEON",
+            "season": 5,
+            "weight": 1
+        },
+        {
+            "source": "DAENERYS TARGARYEN",
+            "target": "SHIREEN BARATHEON",
+            "season": 5,
+            "weight": 2
+        },
+        {
+            "source": "DAENERYS TARGARYEN",
+            "target": "SILK KING",
+            "season": 2,
+            "weight": 1
+        },
+        {
+            "source": "DAENERYS TARGARYEN",
+            "target": "SPICE KING",
+            "season": 2,
+            "weight": 22
+        },
+        {
+            "source": "DAENERYS TARGARYEN",
+            "target": "THEON GREYJOY",
+            "season": 6,
+            "weight": 4
+        },
+        {
+            "source": "DAENERYS TARGARYEN",
+            "target": "THEON GREYJOY",
+            "season": 8,
+            "weight": 1
+        },
+        {
+            "source": "DAENERYS TARGARYEN",
+            "target": "TYRION LANNISTER",
+            "season": 5,
+            "weight": 34
+        },
+        {
+            "source": "DAENERYS TARGARYEN",
+            "target": "TYRION LANNISTER",
+            "season": 6,
+            "weight": 11
+        },
+        {
+            "source": "DAENERYS TARGARYEN",
+            "target": "TYRION LANNISTER",
+            "season": 7,
+            "weight": 29
+        },
+        {
+            "source": "DAENERYS TARGARYEN",
+            "target": "TYRION LANNISTER",
+            "season": 8,
+            "weight": 5
+        },
+        {
+            "source": "DAENERYS TARGARYEN",
+            "target": "VARYS",
+            "season": 5,
+            "weight": 3
+        },
+        {
+            "source": "DAENERYS TARGARYEN",
+            "target": "VARYS",
+            "season": 7,
+            "weight": 15
+        },
+        {
+            "source": "DAENERYS TARGARYEN",
+            "target": "VARYS",
+            "season": 8,
+            "weight": 1
+        },
+        {
+            "source": "DAENERYS TARGARYEN",
+            "target": "VISERYS TARGARYEN",
+            "season": 1,
+            "weight": 13
+        },
+        {
+            "source": "DAENERYS TARGARYEN",
+            "target": "WINE MERCHANT",
+            "season": 1,
+            "weight": 3
+        },
+        {
+            "source": "DAENERYS TARGARYEN",
+            "target": "WOMAN (ANY)",
+            "season": 2,
+            "weight": 1
+        },
+        {
+            "source": "DAENERYS TARGARYEN",
+            "target": "XARO XHOAN DAXOS",
+            "season": 2,
+            "weight": 21
+        },
+        {
+            "source": "DAENERYS TARGARYEN",
+            "target": "YARA GREYJOY",
+            "season": 6,
+            "weight": 6
+        },
+        {
+            "source": "DAENERYS TARGARYEN",
+            "target": "YARA GREYJOY",
+            "season": 7,
             "weight": 1
         },
         {
@@ -58515,19 +58395,19 @@
         },
         {
             "source": "DAVOS SEAWORTH",
-            "target": "DAENARYS TARGARYEN",
+            "target": "DAENERYS TARGARYEN",
             "season": 3,
             "weight": 2
         },
         {
             "source": "DAVOS SEAWORTH",
-            "target": "DAENARYS TARGARYEN",
+            "target": "DAENERYS TARGARYEN",
             "season": 5,
             "weight": 1
         },
         {
             "source": "DAVOS SEAWORTH",
-            "target": "DAENARYS TARGARYEN",
+            "target": "DAENERYS TARGARYEN",
             "season": 7,
             "weight": 3
         },
@@ -59025,13 +58905,13 @@
         },
         {
             "source": "DOREAH",
-            "target": "DAENARYS TARGARYEN",
+            "target": "DAENERYS TARGARYEN",
             "season": 1,
             "weight": 10
         },
         {
             "source": "DOREAH",
-            "target": "DAENARYS TARGARYEN",
+            "target": "DAENERYS TARGARYEN",
             "season": 2,
             "weight": 4
         },
@@ -59109,7 +58989,7 @@
         },
         {
             "source": "DOSH KHALEEN LEADER",
-            "target": "DAENARYS TARGARYEN",
+            "target": "DAENERYS TARGARYEN",
             "season": 6,
             "weight": 3
         },
@@ -59133,7 +59013,7 @@
         },
         {
             "source": "DOTHRAKI WOMAN",
-            "target": "DAENARYS TARGARYEN",
+            "target": "DAENERYS TARGARYEN",
             "season": 6,
             "weight": 2
         },
@@ -59673,7 +59553,7 @@
         },
         {
             "source": "ELLARIA SAND",
-            "target": "DAENARYS TARGARYEN",
+            "target": "DAENERYS TARGARYEN",
             "season": 7,
             "weight": 1
         },
@@ -59793,7 +59673,7 @@
         },
         {
             "source": "EURON GREYJOY",
-            "target": "DAENARYS TARGARYEN",
+            "target": "DAENERYS TARGARYEN",
             "season": 6,
             "weight": 1
         },
@@ -59919,7 +59799,7 @@
         },
         {
             "source": "FENNESZ",
-            "target": "DAENARYS TARGARYEN",
+            "target": "DAENERYS TARGARYEN",
             "season": 4,
             "weight": 7
         },
@@ -60009,13 +59889,13 @@
         },
         {
             "source": "GENDRY BARATHEON",
-            "target": "DAENARYS TARGARYEN",
+            "target": "DAENERYS TARGARYEN",
             "season": 3,
             "weight": 4
         },
         {
             "source": "GENDRY BARATHEON",
-            "target": "DAENARYS TARGARYEN",
+            "target": "DAENERYS TARGARYEN",
             "season": 8,
             "weight": 4
         },
@@ -60207,13 +60087,13 @@
         },
         {
             "source": "GILLY",
-            "target": "DAENARYS TARGARYEN",
+            "target": "DAENERYS TARGARYEN",
             "season": 4,
             "weight": 1
         },
         {
             "source": "GILLY",
-            "target": "DAENARYS TARGARYEN",
+            "target": "DAENERYS TARGARYEN",
             "season": 7,
             "weight": 1
         },
@@ -60441,7 +60321,7 @@
         },
         {
             "source": "GRAND MAESTER PYCELLE",
-            "target": "DAENARYS TARGARYEN",
+            "target": "DAENERYS TARGARYEN",
             "season": 1,
             "weight": 1
         },
@@ -60819,25 +60699,25 @@
         },
         {
             "source": "GREY WORM",
-            "target": "DAENARYS TARGARYEN",
+            "target": "DAENERYS TARGARYEN",
             "season": 3,
             "weight": 4
         },
         {
             "source": "GREY WORM",
-            "target": "DAENARYS TARGARYEN",
+            "target": "DAENERYS TARGARYEN",
             "season": 4,
             "weight": 3
         },
         {
             "source": "GREY WORM",
-            "target": "DAENARYS TARGARYEN",
+            "target": "DAENERYS TARGARYEN",
             "season": 5,
             "weight": 2
         },
         {
             "source": "GREY WORM",
-            "target": "DAENARYS TARGARYEN",
+            "target": "DAENERYS TARGARYEN",
             "season": 7,
             "weight": 1
         },
@@ -61311,13 +61191,13 @@
         },
         {
             "source": "HIZDAHR ZO LORAQ",
-            "target": "DAENARYS TARGARYEN",
+            "target": "DAENERYS TARGARYEN",
             "season": 4,
             "weight": 8
         },
         {
             "source": "HIZDAHR ZO LORAQ",
-            "target": "DAENARYS TARGARYEN",
+            "target": "DAENERYS TARGARYEN",
             "season": 5,
             "weight": 19
         },
@@ -61521,7 +61401,7 @@
         },
         {
             "source": "ILLYRIO MOPATIS",
-            "target": "DAENARYS TARGARYEN",
+            "target": "DAENERYS TARGARYEN",
             "season": 1,
             "weight": 1
         },
@@ -61683,13 +61563,13 @@
         },
         {
             "source": "IRRI",
-            "target": "DAENARYS TARGARYEN",
+            "target": "DAENERYS TARGARYEN",
             "season": 1,
             "weight": 5
         },
         {
             "source": "IRRI",
-            "target": "DAENARYS TARGARYEN",
+            "target": "DAENERYS TARGARYEN",
             "season": 2,
             "weight": 4
         },
@@ -61929,13 +61809,13 @@
         },
         {
             "source": "JAIME LANNISTER",
-            "target": "DAENARYS TARGARYEN",
+            "target": "DAENERYS TARGARYEN",
             "season": 7,
             "weight": 1
         },
         {
             "source": "JAIME LANNISTER",
-            "target": "DAENARYS TARGARYEN",
+            "target": "DAENERYS TARGARYEN",
             "season": 8,
             "weight": 2
         },
@@ -62643,7 +62523,7 @@
         },
         {
             "source": "JHIQUI",
-            "target": "DAENARYS TARGARYEN",
+            "target": "DAENERYS TARGARYEN",
             "season": 1,
             "weight": 1
         },
@@ -63177,19 +63057,19 @@
         },
         {
             "source": "JON SNOW",
-            "target": "DAENARYS TARGARYEN",
+            "target": "DAENERYS TARGARYEN",
             "season": 5,
             "weight": 1
         },
         {
             "source": "JON SNOW",
-            "target": "DAENARYS TARGARYEN",
+            "target": "DAENERYS TARGARYEN",
             "season": 7,
             "weight": 34
         },
         {
             "source": "JON SNOW",
-            "target": "DAENARYS TARGARYEN",
+            "target": "DAENERYS TARGARYEN",
             "season": 8,
             "weight": 27
         },
@@ -63969,49 +63849,49 @@
         },
         {
             "source": "JORAH MORMONT",
-            "target": "DAENARYS TARGARYEN",
+            "target": "DAENERYS TARGARYEN",
             "season": 1,
             "weight": 40
         },
         {
             "source": "JORAH MORMONT",
-            "target": "DAENARYS TARGARYEN",
+            "target": "DAENERYS TARGARYEN",
             "season": 2,
             "weight": 36
         },
         {
             "source": "JORAH MORMONT",
-            "target": "DAENARYS TARGARYEN",
+            "target": "DAENERYS TARGARYEN",
             "season": 3,
             "weight": 21
         },
         {
             "source": "JORAH MORMONT",
-            "target": "DAENARYS TARGARYEN",
+            "target": "DAENERYS TARGARYEN",
             "season": 4,
             "weight": 34
         },
         {
             "source": "JORAH MORMONT",
-            "target": "DAENARYS TARGARYEN",
+            "target": "DAENERYS TARGARYEN",
             "season": 5,
             "weight": 1
         },
         {
             "source": "JORAH MORMONT",
-            "target": "DAENARYS TARGARYEN",
+            "target": "DAENERYS TARGARYEN",
             "season": 6,
             "weight": 2
         },
         {
             "source": "JORAH MORMONT",
-            "target": "DAENARYS TARGARYEN",
+            "target": "DAENERYS TARGARYEN",
             "season": 7,
             "weight": 1
         },
         {
             "source": "JORAH MORMONT",
-            "target": "DAENARYS TARGARYEN",
+            "target": "DAENERYS TARGARYEN",
             "season": 8,
             "weight": 7
         },
@@ -64401,13 +64281,13 @@
         },
         {
             "source": "KHAL DROGO",
-            "target": "DAENARYS TARGARYEN",
+            "target": "DAENERYS TARGARYEN",
             "season": 1,
             "weight": 12
         },
         {
             "source": "KHAL DROGO",
-            "target": "DAENARYS TARGARYEN",
+            "target": "DAENERYS TARGARYEN",
             "season": 2,
             "weight": 1
         },
@@ -64443,7 +64323,7 @@
         },
         {
             "source": "KHAL MORO",
-            "target": "DAENARYS TARGARYEN",
+            "target": "DAENERYS TARGARYEN",
             "season": 6,
             "weight": 8
         },
@@ -64533,7 +64413,7 @@
         },
         {
             "source": "KOVARRO",
-            "target": "DAENARYS TARGARYEN",
+            "target": "DAENERYS TARGARYEN",
             "season": 2,
             "weight": 5
         },
@@ -64545,7 +64425,7 @@
         },
         {
             "source": "KRAZNYS MO NAKLOZ",
-            "target": "DAENARYS TARGARYEN",
+            "target": "DAENERYS TARGARYEN",
             "season": 3,
             "weight": 7
         },
@@ -64707,7 +64587,7 @@
         },
         {
             "source": "LHAZAREEN WOMAN",
-            "target": "DAENARYS TARGARYEN",
+            "target": "DAENERYS TARGARYEN",
             "season": 6,
             "weight": 4
         },
@@ -65571,7 +65451,7 @@
         },
         {
             "source": "MAGO",
-            "target": "DAENARYS TARGARYEN",
+            "target": "DAENERYS TARGARYEN",
             "season": 1,
             "weight": 1
         },
@@ -65739,7 +65619,7 @@
         },
         {
             "source": "MAN",
-            "target": "DAENARYS TARGARYEN",
+            "target": "DAENERYS TARGARYEN",
             "season": 8,
             "weight": 1
         },
@@ -66249,7 +66129,7 @@
         },
         {
             "source": "MANSERVANT",
-            "target": "DAENARYS TARGARYEN",
+            "target": "DAENERYS TARGARYEN",
             "season": 4,
             "weight": 1
         },
@@ -66861,13 +66741,13 @@
         },
         {
             "source": "MELISANDRE",
-            "target": "DAENARYS TARGARYEN",
+            "target": "DAENERYS TARGARYEN",
             "season": 5,
             "weight": 1
         },
         {
             "source": "MELISANDRE",
-            "target": "DAENARYS TARGARYEN",
+            "target": "DAENERYS TARGARYEN",
             "season": 7,
             "weight": 4
         },
@@ -67089,7 +66969,7 @@
         },
         {
             "source": "MERO",
-            "target": "DAENARYS TARGARYEN",
+            "target": "DAENERYS TARGARYEN",
             "season": 3,
             "weight": 5
         },
@@ -67227,7 +67107,7 @@
         },
         {
             "source": "MIRRI MAZ DUUR",
-            "target": "DAENARYS TARGARYEN",
+            "target": "DAENERYS TARGARYEN",
             "season": 1,
             "weight": 15
         },
@@ -67281,31 +67161,31 @@
         },
         {
             "source": "MISSANDEI",
-            "target": "DAENARYS TARGARYEN",
+            "target": "DAENERYS TARGARYEN",
             "season": 3,
             "weight": 18
         },
         {
             "source": "MISSANDEI",
-            "target": "DAENARYS TARGARYEN",
+            "target": "DAENERYS TARGARYEN",
             "season": 4,
             "weight": 15
         },
         {
             "source": "MISSANDEI",
-            "target": "DAENARYS TARGARYEN",
+            "target": "DAENERYS TARGARYEN",
             "season": 5,
             "weight": 2
         },
         {
             "source": "MISSANDEI",
-            "target": "DAENARYS TARGARYEN",
+            "target": "DAENERYS TARGARYEN",
             "season": 7,
             "weight": 2
         },
         {
             "source": "MISSANDEI",
-            "target": "DAENARYS TARGARYEN",
+            "target": "DAENERYS TARGARYEN",
             "season": 8,
             "weight": 1
         },
@@ -67557,7 +67437,7 @@
         },
         {
             "source": "MOSSADOR",
-            "target": "DAENARYS TARGARYEN",
+            "target": "DAENERYS TARGARYEN",
             "season": 5,
             "weight": 8
         },
@@ -68007,7 +67887,7 @@
         },
         {
             "source": "OLENNA TYRELL",
-            "target": "DAENARYS TARGARYEN",
+            "target": "DAENERYS TARGARYEN",
             "season": 7,
             "weight": 2
         },
@@ -68589,7 +68469,7 @@
         },
         {
             "source": "PETYR BAELISH",
-            "target": "DAENARYS TARGARYEN",
+            "target": "DAENERYS TARGARYEN",
             "season": 1,
             "weight": 1
         },
@@ -69111,7 +68991,7 @@
         },
         {
             "source": "PRENDAHL NA GHEZN",
-            "target": "DAENARYS TARGARYEN",
+            "target": "DAENERYS TARGARYEN",
             "season": 3,
             "weight": 2
         },
@@ -69201,7 +69081,7 @@
         },
         {
             "source": "PYAT PREE",
-            "target": "DAENARYS TARGARYEN",
+            "target": "DAENERYS TARGARYEN",
             "season": 2,
             "weight": 4
         },
@@ -69303,7 +69183,7 @@
         },
         {
             "source": "QOTHO",
-            "target": "DAENARYS TARGARYEN",
+            "target": "DAENERYS TARGARYEN",
             "season": 1,
             "weight": 9
         },
@@ -69459,13 +69339,13 @@
         },
         {
             "source": "RAKHARO",
-            "target": "DAENARYS TARGARYEN",
+            "target": "DAENERYS TARGARYEN",
             "season": 1,
             "weight": 2
         },
         {
             "source": "RAKHARO",
-            "target": "DAENARYS TARGARYEN",
+            "target": "DAENERYS TARGARYEN",
             "season": 2,
             "weight": 2
         },
@@ -69519,7 +69399,7 @@
         },
         {
             "source": "RAMSAY SNOW",
-            "target": "DAENARYS TARGARYEN",
+            "target": "DAENERYS TARGARYEN",
             "season": 4,
             "weight": 1
         },
@@ -69675,7 +69555,7 @@
         },
         {
             "source": "RANDYLL TARLY",
-            "target": "DAENARYS TARGARYEN",
+            "target": "DAENERYS TARGARYEN",
             "season": 7,
             "weight": 2
         },
@@ -69789,13 +69669,13 @@
         },
         {
             "source": "RAZDAL MO ERAZ",
-            "target": "DAENARYS TARGARYEN",
+            "target": "DAENERYS TARGARYEN",
             "season": 3,
             "weight": 5
         },
         {
             "source": "RAZDAL MO ERAZ",
-            "target": "DAENARYS TARGARYEN",
+            "target": "DAENERYS TARGARYEN",
             "season": 6,
             "weight": 1
         },
@@ -70017,7 +69897,7 @@
         },
         {
             "source": "RICKON STARK",
-            "target": "DAENARYS TARGARYEN",
+            "target": "DAENERYS TARGARYEN",
             "season": 3,
             "weight": 2
         },
@@ -71061,19 +70941,19 @@
         },
         {
             "source": "SAMWELL TARLY",
-            "target": "DAENARYS TARGARYEN",
+            "target": "DAENERYS TARGARYEN",
             "season": 5,
             "weight": 2
         },
         {
             "source": "SAMWELL TARLY",
-            "target": "DAENARYS TARGARYEN",
+            "target": "DAENERYS TARGARYEN",
             "season": 7,
             "weight": 4
         },
         {
             "source": "SAMWELL TARLY",
-            "target": "DAENARYS TARGARYEN",
+            "target": "DAENERYS TARGARYEN",
             "season": 8,
             "weight": 4
         },
@@ -71913,7 +71793,7 @@
         },
         {
             "source": "SANSA STARK",
-            "target": "DAENARYS TARGARYEN",
+            "target": "DAENERYS TARGARYEN",
             "season": 8,
             "weight": 14
         },
@@ -72693,7 +72573,7 @@
         },
         {
             "source": "SHIREEN BARATHEON",
-            "target": "DAENARYS TARGARYEN",
+            "target": "DAENERYS TARGARYEN",
             "season": 5,
             "weight": 3
         },
@@ -72795,7 +72675,7 @@
         },
         {
             "source": "SILK KING",
-            "target": "DAENARYS TARGARYEN",
+            "target": "DAENERYS TARGARYEN",
             "season": 2,
             "weight": 1
         },
@@ -72825,7 +72705,7 @@
         },
         {
             "source": "SLAVES",
-            "target": "DAENARYS TARGARYEN",
+            "target": "DAENERYS TARGARYEN",
             "season": 4,
             "weight": 1
         },
@@ -72963,7 +72843,7 @@
         },
         {
             "source": "SPICE KING",
-            "target": "DAENARYS TARGARYEN",
+            "target": "DAENERYS TARGARYEN",
             "season": 2,
             "weight": 19
         },
@@ -73023,7 +72903,7 @@
         },
         {
             "source": "STANNIS BARATHEON",
-            "target": "DAENARYS TARGARYEN",
+            "target": "DAENERYS TARGARYEN",
             "season": 3,
             "weight": 1
         },
@@ -73521,13 +73401,13 @@
         },
         {
             "source": "THEON GREYJOY",
-            "target": "DAENARYS TARGARYEN",
+            "target": "DAENERYS TARGARYEN",
             "season": 6,
             "weight": 5
         },
         {
             "source": "THEON GREYJOY",
-            "target": "DAENARYS TARGARYEN",
+            "target": "DAENERYS TARGARYEN",
             "season": 8,
             "weight": 2
         },
@@ -74631,25 +74511,25 @@
         },
         {
             "source": "TYRION LANNISTER",
-            "target": "DAENARYS TARGARYEN",
+            "target": "DAENERYS TARGARYEN",
             "season": 5,
             "weight": 33
         },
         {
             "source": "TYRION LANNISTER",
-            "target": "DAENARYS TARGARYEN",
+            "target": "DAENERYS TARGARYEN",
             "season": 6,
             "weight": 11
         },
         {
             "source": "TYRION LANNISTER",
-            "target": "DAENARYS TARGARYEN",
+            "target": "DAENERYS TARGARYEN",
             "season": 7,
             "weight": 28
         },
         {
             "source": "TYRION LANNISTER",
-            "target": "DAENARYS TARGARYEN",
+            "target": "DAENERYS TARGARYEN",
             "season": 8,
             "weight": 7
         },
@@ -75891,19 +75771,19 @@
         },
         {
             "source": "VARYS",
-            "target": "DAENARYS TARGARYEN",
+            "target": "DAENERYS TARGARYEN",
             "season": 5,
             "weight": 2
         },
         {
             "source": "VARYS",
-            "target": "DAENARYS TARGARYEN",
+            "target": "DAENERYS TARGARYEN",
             "season": 7,
             "weight": 15
         },
         {
             "source": "VARYS",
-            "target": "DAENARYS TARGARYEN",
+            "target": "DAENERYS TARGARYEN",
             "season": 8,
             "weight": 5
         },
@@ -76197,7 +76077,7 @@
         },
         {
             "source": "VISERYS TARGARYEN",
-            "target": "DAENARYS TARGARYEN",
+            "target": "DAENERYS TARGARYEN",
             "season": 1,
             "weight": 9
         },
@@ -76497,7 +76377,7 @@
         },
         {
             "source": "WINE MERCHANT",
-            "target": "DAENARYS TARGARYEN",
+            "target": "DAENERYS TARGARYEN",
             "season": 1,
             "weight": 3
         },
@@ -76563,7 +76443,7 @@
         },
         {
             "source": "WOMAN (ANY)",
-            "target": "DAENARYS TARGARYEN",
+            "target": "DAENERYS TARGARYEN",
             "season": 2,
             "weight": 2
         },
@@ -76653,7 +76533,7 @@
         },
         {
             "source": "XARO XHOAN DAXOS",
-            "target": "DAENARYS TARGARYEN",
+            "target": "DAENERYS TARGARYEN",
             "season": 2,
             "weight": 23
         },
@@ -76737,7 +76617,7 @@
         },
         {
             "source": "YARA GREYJOY",
-            "target": "DAENARYS TARGARYEN",
+            "target": "DAENERYS TARGARYEN",
             "season": 6,
             "weight": 5
         },
@@ -76893,7 +76773,7 @@
         },
         {
             "source": "YEZZAN ZO QAGGAZ",
-            "target": "DAENARYS TARGARYEN",
+            "target": "DAENERYS TARGARYEN",
             "season": 6,
             "weight": 1
         },
