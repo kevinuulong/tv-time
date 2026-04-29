@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+  <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
+  <link rel="stylesheet" href="src/styles/map.css" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>tv-time</title>
+</head>
+
+<body>
+  <main id="map-page">
+    <div id="container">
+      <div id="sidebar">
+        <h1 id="sidebar-title">GAME OF THRONES MAP</h1>
+        <div id="sidebar-inner">
+          <div id="sidebar-top"></div>
+          <div id="sidebar-bottom">
+            <div class="filter-group">
+              <label class="filter-label">Episode</label>
+              <select class="filter-select" id="filter-episode">
+                <option value="">All Episodes</option>
+              </select>
+            </div>
+
+            <div class="filter-group">
+              <label class="filter-label">Character</label>
+              <select class="filter-select" id="filter-character">
+                <option value="">All Characters</option>
+              </select>
+            </div>
+
+            <div class="filter-group">
+              <label class="filter-label">Character Group</label>
+              <select class="filter-select" id="filter-group">
+                <option value="">All Groups</option>
+              </select>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div id="map"></div>
+    </div>
+  </main>
+
+  <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+  <script src="src/map.js"></script>
+</body>
+
+</html>
